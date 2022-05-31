@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eindproject Nienke</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1>Maak je eigen antsichkaart!</h1>
+    <div class="voorkant">
+        <section class="voorkantPlekken">
+            <h2>Verdien geld door de toerist uit te hangen!</h2>
+            <p>Bezoek de plekken en koop een postzegel </p>
+            <button class="italie land">
+                <img src="media/italie.png" alt="Italië">
+                <p>Italië</p>
+            </button>
+            <button class="denemarken land">
+                <img src="media/denemarken.jpeg" alt="Denemarken">
+                <p>Denemarken</p>
+            </button>
+            <button class="florida land">
+                <img src="media/florida.jpeg" alt="Florida">
+                <p>Florida</p>
+            </button>
+        </section>
+        
+        <section class="voorkantKaart">
+            <img src="media/voorkant.png" alt="voorkant antsichkaart">
+            <button class="buttonVoor">Achterkant</button> 
+            <img src="" alt="" class="voorkantFoto">
+        </section>
+        
+        <section class="voorkantVersieringen">
+            <h2>Kies hier je beschikbare versieringen</h2>
+            <button class="kaartItalie sier">
+                <img src="media/italie.png" alt="Italië" >
+                <p>Italië</p>
+            </button>
+            <button class="kaartDenemarken sier">
+                <img src="media/denemarken.jpeg" alt="Denemarken">
+                <p>Denemarken</p>
+            </button>
+            <button class="kaartFlorida sier">
+                <img src="media/florida.jpeg" alt="Florida">
+                <p>Florida</p>
+            </button>
+            <button class="kaartBosje sier">
+                <img src="media/bosje.png" alt="Bosje">
+                <p>Bosje</p>
+            </button>
+            <button class="kaartKus sier">
+                <img src="media/kus.png" alt="Kus">
+                <p>Kus</p>
+            </button>
+            <button class="kaartZon sier">
+                <img src="media/sun.png" alt="Zon">
+                <p>Zon</p>
+            </button>
+        </section>
+    </div>
+
+    <div class="balans">
+        <h2>Balans: €<span></span></h2>
+    </div>
+
+    <div class="achterkant">
+        <section class="achterkantTekst">
+            <h2>Wat wil je schrijven?</h2>
+            <input type="text" class="langeTekst">
+            <button class="schrijven">Schrijven maar!</button>
+        </section>
+
+        <section class="achterkantKaart">
+            <img src="media/achterkant.png" alt="achterkant antsichkaart">
+            <button class="buttonAchter">Voorkant</button> 
+            <div class="achterkantKaartInput">
+                <p class="legeTekst">Nog een lege tekst...</p>
+                <p class="legeNaam">Nog geen naam...</p>
+                <p class="legeStraat">Nog geen straatnaam...</p>
+                <p class="legeCode">Nog geen postcode...</p>
+            </div>
+        </section>
+
+        <section class="achterkantAdres">
+            <h2>Aan wie wil je de kaart sturen?</h2>
+            <input type="text" placeholder="Volledige naam" class="volleNaam">
+            <input type="text" placeholder="Straat en huisnummer" class="volleStraat">
+            <input type="text" placeholder="Postcode en stad" class="volleCode">
+            <button class="adres">Schrijven maar!</button>
+        </section>
+
+        <section class="achterkantPostzegel">
+            <img src="media/postzegel.png" alt="postzegel">
+            <button disabled="" class="kopen" >Postzegel kopen: €15</button>
+            <audio src="media/kaching.mp3"></audio>
+        </section>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
